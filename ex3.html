@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercício 3</title>
+</head>
+<body>
+    <h1>Calculadora de Vendas</h1>
+    <form id="formVendas">
+        <div>
+            <label for="produto1">Produto 1:</label>
+            <input type="text" id="produto1" placeholder="Nome do Produto">
+            <input type="number" id="valor1" placeholder="Valor Unitário">
+            <input type="number" id="quantidade1" placeholder="Quantidade">
+        </div>
+        <div>
+            <label for="produto2">Produto 2:</label>
+            <input type="text" id="produto2" placeholder="Nome do Produto">
+            <input type="number" id="valor2" placeholder="Valor Unitario">
+            <input type="number" id="quantidade2" placeholder="Quantidade">
+        </div>
+        <div>
+            <label for="produto3">Produto 3:</label>
+            <input type="text" id="produto3" placeholder="Nome do Produto">
+            <input type="number" id="valor3" placeholder="Valor Unitário">
+            <input type="number" id="quantidade3" placeholder="Quantidade">
+        </div>
+        <button type="button" onclick="calcularTotal()">Calcular Total</button>
+    </form>
+    <p>Valor Total da Venda: R$ <span id="totalVenda">0.00</span></p>
+    <script src="ex3.js"></script>
+</body>
+</html>

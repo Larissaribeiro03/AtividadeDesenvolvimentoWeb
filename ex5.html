@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercício 5</title>
+</head>
+<body>
+    <h1>Calculadora de Custo para Assentar Piso</h1>
+    <form id="formCustoPiso">
+        <label for="comprimento">Comprimento do comodo (m):</label>
+        <input type="number" id="comprimento" placeholder="Comprimento">
+        
+        <label for="largura">Largura do comodo (m):</label>
+        <input type="number" id="largura" placeholder="Largura">
+        
+        <button type="button" onclick="calcularCustoPiso()">Calcular Custo</button>
+    </form>
+    
+    <p>Custo para assentar piso: R$ <span id="custoPiso">0.00</span></p>
+    
+    <script src="ex5.js"></script>
+</body>
+</html>

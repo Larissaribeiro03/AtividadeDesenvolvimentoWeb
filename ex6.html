@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercício 6</title>
+</head>
+<body>
+    <h1>Calculadora de Peso Ideal</h1>
+    <form id="formPesoIdeal">
+        <label for="altura">Altura (metros):</label>
+        <input type="number" id="altura" step="0.01" placeholder="Altura">
+        
+        <label for="sexo">Sexo:</label>
+        <select id="sexo">
+            <option value="homem">Homem</option>
+            <option value="mulher">Mulher</option>
+        </select>
+        
+        <button type="button" onclick="calcularPesoIdeal()">Calcular Peso Ideal</button>
+    </form>
+    
+    <p>Peso Ideal: <span id="pesoIdeal">0.00</span> kg</p>
+    
+    <script src="ex6.js"></script>
+</body>
+</html>

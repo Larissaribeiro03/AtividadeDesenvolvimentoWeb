@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercício 4</title>
+</head>
+<body>
+    <h1>Calculadora de Gasto com Combustível</h1>
+    <form id="formGasto">
+        <label for="quilometragem">Quilometragem percorrida (km):</label>
+        <input type="number" id="quilometragem" placeholder="Quilometragem">
+        
+        <label for="valorCombustivel">Valor do combustível por litro (R$):</label>
+        <input type="number" id="valorCombustivel" placeholder="Valor por litro">
+        
+        <button type="button" onclick="calcularGasto()">Calcular Gasto</button>
+    </form>
+    
+    <p>Gasto com combustível: R$ <span id="gastoCombustivel">0.00</span></p>
+    
+    <script src="ex4.js"></script>
+</body>
+</html>
